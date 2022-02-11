@@ -1,0 +1,50 @@
+body{margin: 0;
+padding: 0;
+background-image: url('../MEDIAS/fondecran.jpg');
+background-repeat: no-repeat;
+background-size: cover;}
+
+header{background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;}
+    header>img{width: 70px;
+    margin-right: 10px;}
+
+section{background-color: #294962;
+border: 7px solid #58D4c9;
+color: white;
+padding: 10px;
+border-radius: 25px;
+margin-right: 20%;
+margin-left: 20%;
+margin-top: 4%;
+margin-bottom: 5%;
+font-size: 2.6vh;}
+
+h1{text-align: center;
+    font-size: 5vh;}
+
+main>p:first-of-type{background-color: #294962;
+    margin-top: 0;
+    border: 4px solid #294962;}
+
+    footer{background-color: #294962;
+        display: flex;
+        justify-content: space-between;
+        color: #5c8cb0;
+        font-size: 2.5vh;
+        padding: 0 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;}
+        footer>a{text-decoration: none;
+            color: #5c8cb0;
+            padding-top: 15px;}
+
+section>p{padding-left: 3%; padding-right: 3%;
+text-align: justify;
+padding-top: 10px;}
+    
